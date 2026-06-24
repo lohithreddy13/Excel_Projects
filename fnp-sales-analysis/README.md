@@ -111,9 +111,3 @@ The analysis is structured around 10 key business questions:
    - Align inventory, staffing, and marketing calendars with observed monthly and occasion‑level demand peaks to ensure capacity is available when needed.  
    - Pre‑launch targeted campaigns ahead of high‑demand months to capture intent early and smooth fulfilment workloads.
 
-## How to Use This Project
-
-- Open the Excel file in a version that supports Power Pivot.  
-- Refresh the Data Model to ensure relationships and measures are available.  
-- Use the Occasion slicer and other filters to explore how KPIs and charts change across occasions, products, months, weekdays, and cities.  
-- Apply the insights and recommendations to inform marketing, product, and operations decisions.
