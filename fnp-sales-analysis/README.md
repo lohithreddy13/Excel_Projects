@@ -1,7 +1,7 @@
-FNP Sales Analysis – Excel & Power Pivot Project
+**FNP Sales Analysis – Excel & Power Pivot Project
 This project delivers a sales analysis for FNP (Ferns and Petals), an online gifting platform that serves occasions such as Diwali, Raksha Bandhan, Holi, Valentine’s Day, Birthdays, and Anniversaries. Using Microsoft Excel and Power Pivot, the analysis quantifies sales performance, customer behavior, and product effectiveness and consolidates the results in an interactive dashboard.
 
-Business Problem & Objectives
+**Business Problem & Objectives
 FNP wants to improve its sales strategy and customer satisfaction by understanding where revenue comes from, how customers behave, and how products perform across occasions and regions. The dataset includes orders, products, customers, and dates, and the objective is to transform this raw data into insights and clear business recommendations.
 
 The analysis is structured around 10 key business questions:
@@ -26,7 +26,7 @@ Revenue by Occasion – How does revenue differ across occasions?
 
 Product Popularity by Occasion – Which products are most popular for each occasion?
 
-Data & Tools
+**Data & Tools
 Data: Order‑level dataset with products, occasions, customers, cities, order dates, delivery dates, quantities, and revenue.
 
 Tooling:
@@ -35,8 +35,8 @@ Excel for data cleaning, transformation, PivotTables, PivotCharts, and dashboard
 
 Power Pivot for the data model, table relationships, DAX measures, and KPIs.
 
-Analytical Approach
-Business understanding
+**Analytical Approach
+**Business understanding
 
 Clarified objectives around revenue, seasonal performance, customer value, delivery efficiency, and product/occasion mix.
 
