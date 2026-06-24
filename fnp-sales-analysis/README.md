@@ -1,93 +1,72 @@
-FNP Sales Analysis – Excel & Power Pivot Dashboard
-This project is an end‑to‑end sales analytics dashboard for FNP (Ferns N Petals), built entirely in Microsoft Excel using Power Pivot for the data model and PivotCharts for visualization. The aim is to translate raw order data into clear insights and business recommendations for a gifting e‑commerce business.
+FNP Sales Analysis – Excel & Power Pivot Project
+This project delivers a sales analysis for FNP (Ferns and Petals), an online gifting platform that serves occasions such as Diwali, Raksha Bandhan, Holi, Valentine’s Day, Birthdays, and Anniversaries. Using Microsoft Excel and Power Pivot, the analysis quantifies sales performance, customer behavior, and product effectiveness and consolidates the results in an interactive dashboard.
 
-1. Business Understanding
-Before touching the data, I focused on understanding the business problem and expectations:
+Business Problem & Objectives
+FNP wants to improve its sales strategy and customer satisfaction by understanding where revenue comes from, how customers behave, and how products perform across occasions and regions. The dataset includes orders, products, customers, and dates, and the objective is to transform this raw data into insights and clear business recommendations.
 
-Business context: Online gifting platform selling products for occasions such as Anniversary, Birthday, Diwali, Holi, Raksha Bandhan, and Valentine’s Day.
+The analysis is structured around 10 key business questions:
 
-Main objective: Identify which occasions, products, months, cities, and weekdays drive orders and revenue, and how delivery performance impacts customer experience.
+Total Revenue – What is the overall revenue generated?
 
-Key questions:
+Average Order and Delivery Time – How long do orders take to be delivered?
 
-Which occasions and products generate the most revenue?
+Monthly Sales Performance – How do sales fluctuate across the months of 2023?
 
-How does revenue vary by month and weekday?
+Top Products by Revenue – Which products generate the most revenue?
 
-Which cities contribute the most orders?
+Customer Spending Analysis – How much do customers spend on average per order?
 
-What is the average delivery time and customer spending per order?
+Sales Performance of Top 5 Products – How do the top 5 products perform over time?
 
-Deliverable: A single Excel dashboard that summarizes KPIs, trends, and actionable business recommendations.
+Top 10 Cities by Orders – Which cities place the highest number of orders?
 
-2. Data Extraction
-Extracted raw order data from the source file into Excel.
+Order Quantity vs Delivery Time – Does higher quantity impact delivery time?
 
-Brought in all relevant tables (orders, products, occasions, cities) needed for analysis.
+Revenue by Occasion – How does revenue differ across occasions?
 
-Ensured each table had clear column names and appropriate data types for further processing.
+Product Popularity by Occasion – Which products are most popular for each occasion?
 
-3. Data Cleaning and Transformation
-Checked for missing values, inconsistent occasion names, and incorrect date formats; corrected or removed problematic records where necessary.
+Data & Tools
+Data: Order‑level dataset with products, occasions, customers, cities, order dates, delivery dates, quantities, and revenue.
 
-Standardized categorical values (e.g., occasion labels, product names, city names) for consistency.
+Tooling:
 
-Created calculated columns:
+Excel for data cleaning, transformation, PivotTables, PivotCharts, and dashboard layout.
 
-Delivery Days = Delivery Date – Order Date
+Power Pivot for the data model, table relationships, DAX measures, and KPIs.
 
-Customer Spending per order (order value)
+Analytical Approach
+Business understanding
 
-Verified basic statistics (min/max/average) to ensure the data looked reasonable before modeling.
+Clarified objectives around revenue, seasonal performance, customer value, delivery efficiency, and product/occasion mix.
 
-4. Data Modeling with Power Pivot
-Loaded cleaned tables into the Excel Data Model using Power Pivot.
+Data extraction and preparation
 
-Defined relationships between tables (e.g., Orders linked to Products, Occasions, and Cities using keys).
+Imported raw tables into Excel and standardized fields (dates, occasion names, product categories, city names).
 
-Created DAX measures for core KPIs:
+Engineered features such as Delivery Days (delivery date minus order date), order quantity, and order value.
 
-Total Revenue
+Data modeling with Power Pivot
 
-Total Orders
+Loaded Orders, Products, Occasions, and Cities into the Excel Data Model.
 
-Average Delivery Days
+Defined relationships across tables and created DAX measures for Total Revenue, Total Orders, Average Delivery Days, Average Customer Spend, and product/occasion level metrics.
 
-Average Customer Spending per order
+Analysis
 
-Used these measures to power all PivotTables and PivotCharts so the dashboard remains dynamic and consistent.
+Segmented revenue and orders by occasion, product, month, weekday, and city to address the 10 business questions.
 
-5. Analysis
-Using the Power Pivot model and PivotTables:
+Explored the relationship between order quantity and delivery days to test operational impact.
 
-Segmented revenue by occasion, product category, month, weekday, and city.
+Dashboard design
 
-Identified top 10 cities by order volume and top 5 products by revenue.
+Constructed a one‑page Excel dashboard with KPI cards and visuals for:
 
-Analyzed monthly revenue trends to understand seasonality and festival‑driven spikes.
+Total Orders and Total Revenue
 
-Evaluated delivery performance and average customer spending to gauge operational efficiency and customer value.
+Average Delivery Days and Average Customer Spending
 
-6. Dashboard Design (Excel)
-Built a single‑page dashboard in Excel with:
-
-KPI cards:
-
-1000 Total Orders
-
-₹35,20,984 Total Revenue
-
-5.53 Average Delivery Days
-
-₹3,520.98 Average Customer Spending per order
-
-Visuals:
-
-Revenue by Occasion
-
-Revenue by Product
-
-Revenue by Months
+Revenue by Occasion, Product, Month
 
 Top 10 Cities by Orders
 
@@ -95,52 +74,84 @@ Revenue by Weekday
 
 Top 5 Products by Revenue
 
-Interactive controls:
+Added an Occasion slicer to allow stakeholders to slice all views by specific events.
 
-Occasion slicer to filter the entire dashboard by a specific event (e.g., Anniversary, Diwali).
+Key Insights (Mapped to Business Questions)
+Total Revenue
 
-Everything is created with PivotTables, PivotCharts, slicers, and Power Pivot measures inside Excel, without any external BI tools.
+The dataset generates total revenue of approximately ₹35,20,984 across 1,000 orders, providing a clear baseline for performance measurement.
 
-7. Key Insights
-High‑revenue occasions (e.g., Birthdays and Anniversaries) are major drivers of sales and should be prioritized for campaigns.
+Average Order and Delivery Time
 
-Soft Toys and curated gift sets are among the top revenue‑generating products.
+Average delivery time is around 5.53 days, indicating that standard fulfilment is closer to a week than to same‑day or next‑day delivery.
 
-Revenue shows clear peaks around certain months, indicating strong seasonality aligned with festivals and celebrations.
+Monthly Sales Performance
 
-Orders and revenue are concentrated in a limited set of cities, offering opportunities for city‑focused strategies.
+Revenue shows noticeable fluctuations across months, with peaks aligning to major gifting and festival periods, confirming strong seasonality in demand.
 
-Average delivery time of about 5–6 days suggests room to improve logistics to enhance customer satisfaction.
+Top Products by Revenue
 
-8. Business Recommendations
-Based on the insights, the following recommendations are proposed:
+A small set of products (e.g., Soft Toys and specific gift sets such as Magnum Set, Entertainment Pack, Expedit Gift) contribute a disproportionately large share of revenue.
+
+Customer Spending Analysis
+
+Average customer spending per order is about ₹3,520.98, highlighting a mid‑ticket gifting behaviour with room for strategic upselling.
+
+Sales Performance of Top 5 Products
+
+The top 5 products exhibit consistent demand and strong revenue contribution, forming a core portfolio that drives a significant portion of overall sales.
+
+Top 10 Cities by Number of Orders
+
+Orders are concentrated in a defined set of cities, with the top 10 cities accounting for most of the volume, signalling where regional strategies and logistics investments will have the greatest impact.
+
+Order Quantity vs Delivery Time
+
+Analysis of quantity against delivery days does not show extreme delays for larger orders, but there is variability that suggests operational processes can be further stabilized and monitored.
+
+Revenue Comparison Between Occasions
+
+Personal occasions (Birthdays, Anniversaries) and certain major festivals drive higher revenue than other events, confirming that occasion mix is a key lever for growth.
+
+Product Popularity by Occasion
+
+Product preferences vary by occasion, with some product types and bundles clearly associated with specific events (e.g., romantic gifts for Valentine’s Day, festive sets for Diwali), indicating strong occasion–product alignment.
+
+Business Recommendations
+Based on the analysis, the following recommendations are proposed for FNP:
 
 Occasion strategy
 
-Focus marketing efforts on high‑performing occasions (Birthdays, Anniversaries) with personalized campaigns and bundles.
+Prioritize marketing spend and campaign planning around high‑revenue occasions (Birthdays, Anniversaries, key festivals) to capture demand peaks and maximize ROI.
 
-Design special offers around key festivals (Diwali, Holi, Raksha Bandhan, Valentine’s Day) to leverage seasonal demand and increase average order value.
+Design occasion‑specific bundles and landing pages that align with product popularity patterns for each event.
 
-Product optimization
+Product portfolio and merchandising
 
-Promote top‑performing products (Soft Toys, high‑revenue gift sets) more prominently on the website, app, and ads.
+Treat top‑performing products and gift sets as anchor items and position them prominently across the website, app, and paid channels.
 
-Review and improve low‑performing products through redesign, price adjustments, or bundling, based on their revenue contribution.
+Review low‑revenue SKUs and consider redesign, bundling, or discount strategies to improve their performance or simplify the catalog.
 
-City‑level focus
+Customer value and upsell
 
-Use top‑city insights to run localized campaigns and partnerships, prioritizing high‑volume locations for faster delivery and better service.
+Use the current average spend (~₹3,520) as a benchmark and introduce structured upsell flows (add‑ons, premium packaging, personalized cards) to lift average order value.
 
-Explore regional warehousing or logistics partnerships in core cities to reduce delivery days and support same‑day/next‑day delivery options.
+Explore loyalty programs or subscription‑style gifting plans for high‑value customers around recurring occasions.
 
-Timing and promotions
+Regional and city‑level optimization
 
-Align major promotions with high‑revenue months and weekdays to maximize conversion.
+Focus logistics and service improvements on top‑volume cities, where reductions in delivery time and enhanced reliability will impact the largest share of orders.
 
-Introduce time‑bound offers like “order today for delivery by X day” to improve predictability and customer trust.
+Run city‑specific promotions or partnerships in these markets to deepen penetration and brand presence.
 
-Delivery and customer value
+Operational efficiency and delivery
 
-Optimize operational processes and courier SLAs to bring average delivery days down and improve customer experience.
+Use the 5.53‑day average delivery metric as a baseline and set targets for reducing delivery time, especially for key occasions and priority cities.
 
-Use upsell recommendations (add‑on products, premium packaging) to lift average order value beyond ₹3,520 per order.
+Monitor the relationship between order quantity and delivery performance to identify and address process bottlenecks early.
+
+Seasonality and calendar planning
+
+Align inventory, staffing, and marketing calendars with observed monthly and occasion‑level demand peaks to ensure capacity is available when needed.
+
+Pre‑launch targeted campaigns ahead of high‑demand months to capture intent early and smooth fulfilment workloads.
