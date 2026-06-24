@@ -1,8 +1,8 @@
-**FNP Sales Analysis – Excel & Power Pivot Project
+FNP Sales Analysis – Excel & Power Pivot Project
 This project delivers a sales analysis for FNP (Ferns and Petals), an online gifting platform that serves occasions such as Diwali, Raksha Bandhan, Holi, Valentine’s Day, Birthdays, and Anniversaries. Using Microsoft Excel and Power Pivot, the analysis quantifies sales performance, customer behavior, and product effectiveness and consolidates the results in an interactive dashboard.
 
-**Business Problem & Objectives
-FNP wants to improve its sales strategy and customer satisfaction by understanding where revenue comes from, how customers behave, and how products perform across occasions and regions. The dataset includes orders, products, customers, and dates, and the objective is to transform this raw data into insights and clear business recommendations.
+Business Problem & Objectives
+FNP aims to improve its sales strategy and customer satisfaction by understanding where revenue comes from, how customers behave, and how products perform across occasions and regions. The dataset includes orders, products, customers, and dates, and the objective is to transform this raw data into insights and clear business recommendations.
 
 The analysis is structured around 10 key business questions:
 
@@ -26,17 +26,17 @@ Revenue by Occasion – How does revenue differ across occasions?
 
 Product Popularity by Occasion – Which products are most popular for each occasion?
 
-**Data & Tools
+Data & Tools
 Data: Order‑level dataset with products, occasions, customers, cities, order dates, delivery dates, quantities, and revenue.
 
-Tooling:
+Tools:
 
 Excel for data cleaning, transformation, PivotTables, PivotCharts, and dashboard layout.
 
-Power Pivot for the data model, table relationships, DAX measures, and KPIs.
+Power Pivot for the data model, relationships, DAX measures, and KPI definitions.
 
-**Analytical Approach
-**Business understanding
+Analytical Approach
+Business understanding
 
 Clarified objectives around revenue, seasonal performance, customer value, delivery efficiency, and product/occasion mix.
 
@@ -50,13 +50,13 @@ Data modeling with Power Pivot
 
 Loaded Orders, Products, Occasions, and Cities into the Excel Data Model.
 
-Defined relationships across tables and created DAX measures for Total Revenue, Total Orders, Average Delivery Days, Average Customer Spend, and product/occasion level metrics.
+Defined relationships across tables and created DAX measures for Total Revenue, Total Orders, Average Delivery Days, Average Customer Spend, and product/occasion‑level metrics.
 
 Analysis
 
 Segmented revenue and orders by occasion, product, month, weekday, and city to address the 10 business questions.
 
-Explored the relationship between order quantity and delivery days to test operational impact.
+Examined the relationship between order quantity and delivery days to test operational impact.
 
 Dashboard design
 
@@ -76,65 +76,63 @@ Top 5 Products by Revenue
 
 Added an Occasion slicer to allow stakeholders to slice all views by specific events.
 
-Key Insights (Mapped to Business Questions)
+Key Insights
 Total Revenue
 
-The dataset generates total revenue of approximately ₹35,20,984 across 1,000 orders, providing a clear baseline for performance measurement.
+Total revenue is approximately ₹35,20,984 across 1,000 orders, providing a clear baseline for performance.
 
 Average Order and Delivery Time
 
-Average delivery time is around 5.53 days, indicating that standard fulfilment is closer to a week than to same‑day or next‑day delivery.
+Average delivery time is around 5.53 days, indicating that standard fulfilment is closer to a week than same‑day or next‑day delivery.
 
 Monthly Sales Performance
 
-Revenue shows noticeable fluctuations across months, with peaks aligning to major gifting and festival periods, confirming strong seasonality in demand.
+Revenue fluctuates across months, with peaks aligning to major gifting and festival periods, confirming strong seasonality in demand.
 
 Top Products by Revenue
 
-A small set of products (e.g., Soft Toys and specific gift sets such as Magnum Set, Entertainment Pack, Expedit Gift) contribute a disproportionately large share of revenue.
+A small set of products (Soft Toys and specific gift sets such as Magnum Set, Entertainment Pack, Expedit Gift) contribute a disproportionately large share of revenue.
 
 Customer Spending Analysis
 
-Average customer spending per order is about ₹3,520.98, highlighting a mid‑ticket gifting behaviour with room for strategic upselling.
+Average customer spending per order is about ₹3,520.98, highlighting mid‑ticket gifting behaviour with room for strategic upselling.
 
 Sales Performance of Top 5 Products
 
-The top 5 products exhibit consistent demand and strong revenue contribution, forming a core portfolio that drives a significant portion of overall sales.
+The top 5 products show consistent demand and strong revenue contribution, forming a core portfolio that drives a significant portion of overall sales.
 
-Top 10 Cities by Number of Orders
+Top 10 Cities by Orders
 
-Orders are concentrated in a defined set of cities, with the top 10 cities accounting for most of the volume, signalling where regional strategies and logistics investments will have the greatest impact.
+Orders are concentrated in a defined set of cities, with the top 10 cities accounting for most of the volume, signalling where regional strategies and logistics investments will be most impactful.
 
 Order Quantity vs Delivery Time
 
-Analysis of quantity against delivery days does not show extreme delays for larger orders, but there is variability that suggests operational processes can be further stabilized and monitored.
+Higher order quantities do not appear to cause extreme delays, but variability in delivery days suggests further opportunity to stabilize operational performance.
 
-Revenue Comparison Between Occasions
+Revenue by Occasion
 
-Personal occasions (Birthdays, Anniversaries) and certain major festivals drive higher revenue than other events, confirming that occasion mix is a key lever for growth.
+Personal occasions (Birthdays, Anniversaries) and certain major festivals drive higher revenue than other events, making occasion mix a key lever for growth.
 
 Product Popularity by Occasion
 
-Product preferences vary by occasion, with some product types and bundles clearly associated with specific events (e.g., romantic gifts for Valentine’s Day, festive sets for Diwali), indicating strong occasion–product alignment.
+Product preferences vary by occasion, with specific product types and bundles strongly associated with particular events, indicating clear occasion–product alignment.
 
 Business Recommendations
-Based on the analysis, the following recommendations are proposed for FNP:
-
 Occasion strategy
 
-Prioritize marketing spend and campaign planning around high‑revenue occasions (Birthdays, Anniversaries, key festivals) to capture demand peaks and maximize ROI.
+Prioritize marketing and campaign planning around high‑revenue occasions (Birthdays, Anniversaries, key festivals) to capture demand peaks and maximize ROI.
 
-Design occasion‑specific bundles and landing pages that align with product popularity patterns for each event.
+Design occasion‑specific bundles and landing pages that mirror product popularity patterns for each event.
 
 Product portfolio and merchandising
 
-Treat top‑performing products and gift sets as anchor items and position them prominently across the website, app, and paid channels.
+Treat top‑performing products and gift sets as anchor items and position them prominently across website, app, and paid channels.
 
-Review low‑revenue SKUs and consider redesign, bundling, or discount strategies to improve their performance or simplify the catalog.
+Review low‑revenue SKUs and consider redesign, bundling, or discount strategies to improve performance or simplify the catalog.
 
 Customer value and upsell
 
-Use the current average spend (~₹3,520) as a benchmark and introduce structured upsell flows (add‑ons, premium packaging, personalized cards) to lift average order value.
+Use the current average spend (~₹3,520) as a benchmark and introduce structured upsell flows (add‑on products, premium packaging, personalized cards) to lift average order value.
 
 Explore loyalty programs or subscription‑style gifting plans for high‑value customers around recurring occasions.
 
